@@ -1,0 +1,852 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu1 {
+    height: 20px;
+}
+
+.menu1 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 18px;
+
+}
+
+.menu2 ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+
+
+/* section  */
+
+
+.iamges {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+.image-text {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+
+    p {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        font-size: 70px;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    button {
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        margin-top: 30px;
+    }
+}
+
+
+.image-title {
+
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.video {
+    width: 47%;
+    height: 100%;
+
+}
+
+.text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.text1 {
+    color: rgb(244, 244, 115);
+}
+
+.text h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text h5 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.text .text2 {
+    margin-top: 30px;
+    font-size: 17px;
+    width: 90%;
+}
+
+
+.back-img {
+    height: auto;
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/coffee/img/menu-bg.jpg.webp);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+    p {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}
+
+
+.card-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+
+.card {
+    height: 170px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: rgba(211, 235, 79, 0.35) 0px 5px 15px;
+    background-color: white;
+
+
+    p {
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: start;
+        margin-top: 50px;
+        color: rgba(0, 0, 0, 0.718);
+    }
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+#color {
+    color: orange;
+}
+
+
+.grid-img {
+
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+.grid {
+
+    height: 800px;
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.grid-img .h-30 {
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-img .h-70 {
+    height: 100%;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.w-30 {
+    height: 35%;
+    width: 100%;
+
+}
+
+.w-70 {
+    height: 55%;
+    width: 100%;
+
+}
+
+.h40 {
+
+    height: 55%;
+    width: 100%;
+}
+
+.d-flex1 {
+    display: flex;
+    height: 40%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.w50 {
+
+    width: 50%;
+    height: 100%;
+}
+
+.yellow-back {
+    background-color: #b68834;
+    height: auto;
+    color: white;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
+
+.lorem-ipsum {
+    display: flex;
+    gap: 30px;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+    div {
+
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        img {
+            width: 100px;
+            height: 70px;
+        }
+
+        h4 {
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        p {
+            text-align: start;
+        }
+    }
+}
+
+.menu-icon {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1100px) {
+    .image-text {
+        left: 10%;
+
+        p {
+            font-size: 22px;
+        }
+
+        h1 {
+            font-size: 45px;
+        }
+    }
+
+    .image-title {
+        height: 300px;
+        width: 90%;
+    }
+
+    .text {
+        h1 {
+            font-size: 22px;
+        }
+
+        h5 {
+            font-size: 15px;
+        }
+
+        .text2 {
+            margin-top: 10px;
+        }
+    }
+
+    .card {
+        width: 300px;
+
+        p {
+            font-size: 17px;
+            margin-top: 50px;
+        }
+    }
+
+    .d-flex {
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .grid {
+        height: 600px;
+    }
+    .lorem-ipsum div p{
+        font-size: 17px;
+    }
+}
+
+
+
+@media(max-width:800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .menu1 ul {
+        font-size: 12px;
+    }
+
+    .menu2 ul {
+        font-size: 12px;
+    }
+
+    .iamges {
+        height: 300px;
+    }
+
+    .image-text {
+        top: 10%;
+        left: 5%;
+
+        p {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .image-text button {
+        margin-top: 10px;
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .image-title {
+        height: 200px;
+    }
+
+    .text {
+        h1 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        h5 {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        .text2 {
+            font-size: 15px;
+            padding-bottom: 50px;
+        }
+    }
+
+    .card {
+        width: 200px;
+        height: 150px;
+
+        p {
+            font-size: 15px;
+            padding-left: 20px;
+            margin-top: 50px;
+        }
+    }
+
+    .d-flex {
+        h2 {
+            font-size: 15px;
+        }
+    }
+}
+
+@media(max-width:700px) {
+    .text {
+        h1 {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        h5 {
+            font-size: 12px;
+        }
+
+        .text2 {
+            font-size: 12px;
+        }
+    }
+
+    .back-img {
+        h1 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .card {
+        height: 120px;
+    }
+
+    .card p {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .grid {
+        height: 400px;
+    }
+
+    .grid-img {
+
+        h1 {
+            font-size: 28px;
+        }
+    }
+    .yellow-back{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 15px;
+        }
+        .lorem-ipsum{
+            width: 90%;
+
+            p{
+                font-size: 15px;
+            }
+            h4{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .menu-icon {
+        display: block;
+        position: relative;
+    }
+
+    #menu-list {
+        position: absolute;
+        background-color: black;
+        color: white;
+        display: block;
+        top: 80px;
+        width: 150px;
+        text-align: center;
+        right: 10px;
+        overflow: hidden;
+        border-radius: 15px;
+
+        li {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .menu2 ul {
+        gap: 10px;
+    }
+
+    .menu1 {
+        height: 0;
+    }
+
+    .image-title {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .video {
+        width: 60%;
+        margin: auto;
+    }
+
+    .text {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .back-img {
+        padding-top: 20px;
+    }
+
+    .grid {
+        height: 300px;
+    }
+
+    .grid-img {
+
+        h1 {
+            font-size: 22px;
+        }
+    }
+    .lorem-ipsum{
+        flex-direction: column;
+    }
+    .lorem-ipsum div{
+        width: 100%;
+        
+        img{
+            margin: auto;
+        }
+        h4{
+            margin: auto;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .yellow-back{
+        h1{
+            font-size: 25px;
+        }
+    }
+}
+
+@media(max-width:450px) {
+    .logo img {
+        width: 80px;
+        height: 20px;
+    }
+
+    .iamges {
+        height: 200px;
+    }
+
+    .image-text {
+        p {
+            font-size: 15px;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin-top: 10px;
+        }
+    }
+
+    .video {
+        width: 80%;
+    }
+
+    .card {
+        width: 150px;
+        height: 100px;
+    }
+
+    .d-flex {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card p {
+        font-size: 10px;
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    .back-img h1 {
+        font-size: 20px;
+    }
+
+    #p {
+        font-size: 12px;
+    }
+
+    .back-img {
+        padding-top: 20px;
+    }
+
+    .grid {
+        height: 200px;
+    }
+
+    .grid-img {
+
+        h1 {
+            font-size: 17px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+    .yellow-back {
+       padding-top: 30px;
+    }
+}
+
+@media(max-width:400px) {
+    .menu2 ul {
+        gap: 5px;
+        font-size: 10px;
+    }
+
+    .image-text {
+        p {
+            font-size: 10px;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    }
+
+    .image-text button {
+        font-size: 8px;
+        width: 60px;
+        height: 25px;
+    }
+
+    .back-img h1 {
+        font-size: 15px;
+    }
+
+    #p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 120px;
+    }
+
+    .d-flex h2 {
+        font-size: 10px;
+    }
+
+    .card p {
+        font-size: 10px;
+        padding-right: 0;
+    }
+
+    .grid-img {
+        height: 300px;
+        padding-top: 30px;
+
+        h1 {
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 10px;
+            margin-top: 10px;
+        }
+    }
+
+    .grid {
+        margin-top: 20px;
+    }
+    .yellow-back{
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        div{
+            img{
+                margin: auto;
+            }
+            h4{
+                margin: auto;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+@media(max-width:300px) {
+    .menu2 {
+        display: none;
+    }
+
+    .grid-img{
+        
+
+
+
+        h1 {
+            font-size: 12px;
+        }
+
+        p {
+            font-size: 7px;
+            margin-top: 10px;
+        }
+    }
+
+    .grid {
+        margin-top: 0px;
+        height: 250px;
+        padding-top: 30px;
+    }
+    .yellow-back{
+        padding-top: 10px;
+        h1{
+            font-size: 15px;
+        }
+        p{
+            font-size: 8px;
+            margin-top: 5px;
+        }
+
+        .lorem-ipsum{
+            margin-top: 20px;
+            div{
+            img{
+                height: 50px;
+                width: 80px;
+            }
+            h4{
+                margin: auto;
+                margin-top: 10px;
+                font-size: 15px;
+            }
+            p{
+                text-align: center;
+                margin-top: 10px;
+                font-size: 10px;
+            }
+        }
+        }
+    }
+}

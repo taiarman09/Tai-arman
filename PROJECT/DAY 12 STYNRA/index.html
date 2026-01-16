@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="background-black">
+            <span>
+                <span style="border-right: 1px solid white; padding-right: 10px;">EN</span>
+                <span style="padding-left: 10px;">STORE LOCATION</span>
+            </span>
+            <span id="tweent">20% OFF WITH SMS OR EMAIL SIGN UP</span>
+            <span>(+01) – 888 777 999</span>
+        </div>
+        <div class="background-white">
+            <div class="input">
+                <input type="text" placeholder="What would you like to buy">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div id="menu">
+                <ul >
+                    <li>HOME</li>
+                    <li>STORY</li>
+                    <li>CATEGORIES</li>
+                    <li>SHOP</li>
+                </ul>
+            </div>
+            <div class="logo">STYNRA</div>
+            <div style="padding-top: 10px;">
+                <ul>
+                    <li id="hide"><i class="fa-solid fa-magnifying-glass"></i>SEARCH</li>
+                    <li id="hide">CONTACT</li>
+                    <li id="hide">PAGES <i class="fa-solid fa-plus"></i></li>
+                    <li><i class="fa-regular fa-user"></i></li>
+                    <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    <li id="bar" onclick="menubar()"><i class="fa-solid fa-bars"></i>
+                        <ul id="menuList">
+                            <li>HOME</li>
+                            <li>STORY</li>
+                            <li>CATEGORIES</li>
+                            <li>SHOP</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- <section>
+        
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3">
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img height="100%" width="100%" src="https://cdn.prod.website-files.com/6881474bdd4d06d07447731e/68814d59cb2d49305bc4e1b0_Frame%202147223646%20(1).avif"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img height="100%" width="100%" src="https://cdn.prod.website-files.com/6881474bdd4d06d07447731e/68864a49fd2175c633adabb5_Group%2036175%20(1).avif"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img height="100%" width="100%" src="https://cdn.prod.website-files.com/6881474bdd4d06d07447731e/68864a494c79d5e6132f1b5b_Group%2036176%20(1).avif"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img height="100%" width="100%" src="https://cdn.prod.website-files.com/6881474bdd4d06d07447731e/68864a49105219c62607b136_Group%2036177.avif"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+
+            </div>
+        
+        <div class="position-ab">
+            
+        </div>
+    </section>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+
+        menuList.style.maxHeight = "0px"
+        menuList.style.display="none"
+
+        function menubar() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px"
+                 menuList.style.display="block"
+            }
+            else {
+                menuList.style.maxHeight = "0px"
+                 menuList.style.display="none"
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

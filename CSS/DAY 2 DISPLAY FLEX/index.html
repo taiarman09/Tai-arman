@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+   
+
+    .containt{
+        background-color: rgb(66, 62, 57);
+        height: 480px;
+        color: white;
+    }
+
+    .box{
+        background-color: yellow;
+        height: 400px;
+        display: flex; 
+     
+    }
+     .box5{
+        background-color: yellow;
+        height: 400px;
+        display: flex; 
+        flex-direction: row-reverse;
+     
+    }
+
+    .box6{
+        background-color: yellow;
+        height: 400px;
+        display: flex; 
+         flex-direction: column-reverse;
+         flex-wrap: wrap;
+     
+    }
+
+    .box7{
+        background-color: yellow;
+        height: 400px;
+        display: flex; 
+        flex-flow: column wrap-reverse;
+
+    }
+
+     .box8{
+        background-color: yellow;
+        height: 400px;
+        display: flex; 
+      flex-flow: column nowrap;
+
+    }
+
+
+
+    .box10{
+        background-color: yellow;
+        height: 400px;
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        
+    }
+
+
+     .box2{
+        background-color: yellow;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+       
+        
+    }
+
+
+      .box3{
+        background-color: yellow;
+        height: 400px;
+        display: flex;
+       flex-flow: row-reverse;
+      
+    }
+
+       .box4{
+        background-color: yellow;
+        height:345px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+      
+    }
+
+    .box1{
+        border: 0px solid white;
+        background-color: white;
+        height: 30px;
+        
+    }
+
+    .word{
+       
+     
+       display: flex;
+       justify-content: center;
+
+    
+    }
+
+    .word1{
+        font-size: 15px;
+    }
+
+
+
+    .card{
+        border: 1px solid rgb(225, 175, 110);
+        height: 100px;
+        width: 100px;
+        background-color: antiquewhite;
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+         flex-wrap: wrap;
+
+    }
+
+    .card1{
+        border: 1px solid rgb(225, 175, 110);
+        height: 100px;
+        width: 100px;
+        background-color: antiquewhite;
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+      flex-wrap: wrap;
+        
+
+    }
+
+        .card2{
+        border: 1px solid rgb(225, 175, 110);
+        height: 100px;
+        width: 100px;
+        background-color: antiquewhite;
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+      flex-wrap: wrap;
+        
+
+    }
+
+    .card3{
+        border: 1px solid rgb(225, 175, 110);
+        height: 100px;
+        width: 100px;
+        background-color: antiquewhite;
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+         flex-wrap: wrap;
+
+    }
+
+     .card4{
+        border: 1px solid rgb(225, 175, 110);
+        height: 100px;
+        width: 100px;
+        background-color: antiquewhite;
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+         
+
+    }
+
+   </style>
+</head>
+<body>
+   
+
+
+        <div class="containt">
+            <div class="word"><h1>Display: Flex</h1></div>
+            <div class="word1"><h3>Flexbox is short for the flexible box Layout module. Flexbox is a layout method for arranging items in rows or colums. Flexbox makes it easily to design a flexible respomsive layout structure, without using float or positioning.</h3></div>
+            <div class="box">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+            </div>
+        </div>
+
+
+                    <div class="box1"></div>  
+
+
+
+<div class="containt">
+            <div class="word"><h1>Display: Flex, Flex - Wrap</h1></div>
+            <div class="word1"><h3>
+                <ul>
+                    <li>The flex-Wrap property specifiles whether the flex items should wrap or not, if there is not enough room for them on one flex line.
+                    <li>The flex-wrap property can have one of the following values.</li>
+                    <ul> <li>nowrap</li><li>wrap</li><li>wrap-reverse</li></ul>
+           
+       </div>
+            <div class="word"><h1>Display: Flex, Flex - Wrap: no-wrap</h1></div>
+             <div class="word1"><h3>
+                <ul><li>The nowrap value spaceifies that the flex items will not wrap</li></ul></h3></div>
+
+            
+            <div class="box">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+                <div class="card">10</div>
+                <div class="card">11</div>
+                <div class="card">12</div>
+                <div class="card">13</div>
+            </div>
+              
+
+     <div class="box1"></div>  
+
+
+       <div class="containt">
+            <div class="word"><h1>Display: Flex, Flex - Wrap :Wrap
+            </h1></div>
+            <div class="word1"><h3><ul><li>The Wrap value specifies that the flex items will wrap</li></ul></h3></div>
+            <div class="box2">
+                 <div class="card1">1</div>
+                <div class="card1">2</div>
+                <div class="card1">3</div>
+                <div class="card1">4</div>
+                <div class="card1">5</div>
+                <div class="card1">6</div>
+                <div class="card1">7</div>
+                <div class="card1">8</div>
+                <div class="card1">9</div>
+                <div class="card1">10</div>
+                <div class="card1">11</div>
+                <div class="card1">12</div>
+                <div class="card1">13</div>
+                 <div class="card1">14</div>
+                <div class="card1">15</div>
+            </div>
+        </div>
+
+        <div class="box1"></div>
+
+
+        <div class="containt">
+            <div class="word"><h1>Display: Flex, Flex - Wrap :wrap-reverse
+            </h1></div>
+            <div class="word1"><h3><ul><li>The Wrap-reverse value specifies that the flex items will wrap</li></ul></h3></div>
+            <div class="box4">
+                 <div class="card1">1</div>
+                <div class="card1">2</div>
+                <div class="card1">3</div>
+                <div class="card1">4</div>
+                <div class="card1">5</div>
+                <div class="card1">6</div>
+                <div class="card1">7</div>
+                <div class="card1">8</div>
+                <div class="card1">9</div>
+                <div class="card1">10</div>
+                <div class="card1">11</div>
+                <div class="card1">12</div>
+                <div class="card1">13</div>
+                 <div class="card1">14</div>
+                <div class="card1">15</div>
+            </div>
+        </div>
+
+
+              <div class="box1"></div>
+
+             
+
+
+
+
+            <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-Direction</h1></div>
+             <div class="word1"><h3>
+                <ul><li>The flex-direction property specifies the display-direction of flex items in the flex container.</li><li>The flex-direction property can have one of the following values. </li><ul>
+                    <li>row</li>
+                    <li>column</li>
+                    <li>row-reverse</li>
+                    <li>column-reverse</li>
+                </ul></ul></h3></div>
+
+
+           <div class="word"><h1>Display: Flex, flex-Direction : row
+            </h1></div>
+               <div class="word1"><h3><ul><li>The row value is the default value, and it displays the flex items horizontally</li></ul></h3></div>
+
+            
+            <div class="box">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+                <div class="card">10</div>
+                <div class="card">11</div>
+                <div class="card">12</div>
+                <div class="card">13</div>
+            </div>
+
+
+         <div class="box1"></div>
+
+          <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-Direction : column</h1></div>
+              <div class="word1"><h3>
+                <ul><li>The column value displays the flex items vertically</li></ul></h3></div>
+                 <div class="box10">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+                <div class="card">10</div>
+                <div class="card">11</div>
+                <div class="card">12</div>
+                <div class="card">13</div>
+                </div>
+
+                <div class="box1"></div>
+
+                  <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-Direction :row-Reverse</h1></div>
+            <div class="word1"><h3><ul><li>The row-reverse value displays the flex items horizontally </li></ul></h3></div>
+            <div class="box5">
+               <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+                <div class="card">10</div>
+                <div class="card">11</div>
+                <div class="card">12</div>
+                <div class="card">13</div>
+            </div>
+            <div class="box1"></div>
+        </div>
+
+         <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-Direction :column-reverse</h1></div>
+            <div class="word1"><h3><ul><li>The column-reverse value displays the flex items vertically</li>
+            </ul></h3></div>
+            <div class="box6">
+               <div class="card3">1</div>
+                <div class="card3">2</div>
+                <div class="card3">3</div>
+                <div class="card3">4</div>
+                <div class="card3">5</div>
+                <div class="card3">6</div>
+                <div class="card3">7</div>
+                <div class="card3">8</div>
+                <div class="card3">9</div>
+                <div class="card3">10</div>
+                <div class="card3">11</div>
+                <div class="card3">12</div>
+                <div class="card3">13</div>
+            </div>
+          
+                <div class="box1"></div>
+
+                 <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-flow</h1></div>
+             <div class="word1"><h3>
+                <ul><li>The flex-flow property is a shorthand property foe setting both the flex-Direction and flex-Wrap property </li><li>The flex-flow property can have one of the following values</li><ul>
+                    <li>row-wrap</li>
+                    <li>row-wrap-reverse</li>
+                    <li>row-nowrap</li>
+                    <li>column-wrap</li>
+                     <li>column-wrap-reverse</li>
+                      <li>column-nowrap</li>
+                </ul></ul></h3></div>
+
+
+           <div class="word"><h1>Display: Flex, flex-flowrow wrap;
+            </h1></div>
+               <div class="word1"><h3><ul><li>The CSS property flex-flow row wrap is a shorthand for setting both the flex-direction and flex-wrap property on a flex container  </li></ul></h3></div>
+
+                     <div class="box2">
+                 <div class="card1">1</div>
+                <div class="card1">2</div>
+                <div class="card1">3</div>
+                <div class="card1">4</div>
+                <div class="card1">5</div>
+                <div class="card1">6</div>
+                <div class="card1">7</div>
+                <div class="card1">8</div>
+                <div class="card1">9</div>
+                <div class="card1">10</div>
+                <div class="card1">11</div>
+                <div class="card1">12</div>
+                <div class="card1">13</div>
+                 <div class="card1">14</div>
+                <div class="card1">15</div>
+            </div>
+
+                 <div class="box1"></div>
+
+                  <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-flow:row wrap-reverse</h1></div>
+              <div class="word1"><h3>
+                <ul><li>flex-flow row wrap-reverse used to arrange flex container items horizontally (left to right) and when they overflow, the extra items wrap to a row line above the current. line instead of below</li></ul></h3></div>
+
+                <div class="box4">
+                 <div class="card1">1</div>
+                <div class="card1">2</div>
+                <div class="card1">3</div>
+                <div class="card1">4</div>
+                <div class="card1">5</div>
+                <div class="card1">6</div>
+                <div class="card1">7</div>
+                <div class="card1">8</div>
+                <div class="card1">9</div>
+                <div class="card1">10</div>
+                <div class="card1">11</div>
+                <div class="card1">12</div>
+                <div class="card1">13</div>
+                 <div class="card1">14</div>
+                <div class="card1">15</div>
+            </div>
+             
+             <div class="box1"></div>
+
+              <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-flow:row nowrap</h1></div>
+              <div class="word1"><h3>
+                <ul><li>The flow row nowrap arrange flex container items horizontally from left to right in a single line and prevents them from wrapping to the next line, even if there is not enough space. </li></ul></h3></div>
+                <div class="box">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+                <div class="card">10</div>
+                <div class="card">11</div>
+                <div class="card">12</div>
+                <div class="card">13</div>
+                <div class="card">14</div>
+                <div class="card">15</div>
+            </div>
+
+                 <div class="box1"></div>
+                 <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-flow:column wrap</h1></div>
+             <div class="word1"><h3>
+                <ul><li>flex-flow column wraps arrange flex items vertically from top to button and allows them to wrap into additional column horizontally if there is not enough vertical space.</li></ul></h3></div>
+                 <div class="box10">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+                <div class="card">10</div>
+                <div class="card">11</div>
+                <div class="card">12</div>
+                <div class="card">13</div>
+                <div class="card">14</div>
+                <div class="card">15</div>
+                </div>
+                 <div class="box1"></div>
+
+                   <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-flow:column wrap-reverse </h1></div>
+            <div class="word1"><h3>
+                <ul><li>flex-flow column wrap-reverse; arrange flex items vertically from top button, and if they overflow, the extra items wrap into new columns to the left of the original column (instead of to the right)</li></ul></h3></div>
+                <div class="box7">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+                <div class="card">10</div>
+                <div class="card">11</div>
+                <div class="card">12</div>
+                <div class="card">13</div>
+                <div class="card">14</div>
+                <div class="card">15</div>
+                </div>
+
+                <div class="box1"></div>
+                <div class="containt">
+            <div class="word"><h1>Display: Flex, flex-flow:column nowrap </h1></div>
+             <div class="word1"><h3>
+                <ul><li>flex-flow column nowrap; arrange flex items top to button in a single column, and prevents them from wrapping into additional columnn, even if they overflow the container. </li></ul></h3></div>
+                <div class="box8">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+                <div class="card">10</div>
+                <div class="card">11</div>
+                <div class="card">12</div>
+                <div class="card">13</div>
+                <div class="card">14</div>
+                <div class="card">15</div>
+                </div>
+
+
+
+
+
+        </div>
+</body>
+</html>

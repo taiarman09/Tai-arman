@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="carsour">
+            <img id="image" src="" alt="">
+            
+        </div>
+    </div>
+
+
+
+    <script>
+
+        let image = document.getElementById("image")
+
+
+        let count = 0
+        let array = [1, 2, 3, 4, 5]
+
+        let images = [
+            "https://picsum.photos/id/237/1000/800",
+            "https://picsum.photos/id/240/1000/700",
+            "https://picsum.photos/id/250/1000/800",
+            "https://picsum.photos/id/260/1000/500",
+            "https://picsum.photos/id/270/1000/500"
+        ]
+
+        function show(array) {
+            image.src = images[count]
+            image.style.width = "100%"
+            image.style.height = "100%"
+            image.style.borderRadius = "30px"
+        }
+        show(array)
+
+
+
+
+        setInterval(()=>{
+            count++
+            if(count==images.length){
+                count=0
+            }
+            show(array)
+        },5000)
+
+
+    </script>
+
+
+</body>
+
+</html>

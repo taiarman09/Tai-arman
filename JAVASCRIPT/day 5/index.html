@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="Temperatures"></p>
+    
+
+
+    <script>
+        let temperature1 = 31
+        let text
+        if(temperature1>=0 && temperature1<=30){
+            text="Lowest temperature: "+temperature1
+            console.log(text)
+        }
+        else{
+            text="Highest temperature: "+temperature1
+            console.log(temperature1)
+        }
+        document.getElementById("Temperatures").innerHTML=text
+    </script>
+</body>
+</html>
