@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.logoname{
+    font-size: 35px;
+}
+
+li{
+    position: relative;
+}
+
+li span{
+    position: absolute;
+    top: -10px;
+    left: 8;
+}
+
+
+#products {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid #aaa;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

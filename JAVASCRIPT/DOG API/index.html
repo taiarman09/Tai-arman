@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <img id="Image" alt="">
+        
+    </div>
+    <button onclick="getDog()" type="button">Get Dog</button>
+    
+
+
+    <script>
+
+        function getDog(){
+
+            fetch("https://dog.ceo/api/breeds/image/random")
+            .then((Response)=>Response.json())
+            .then((data)=>{
+                document.getElementById("Image").src=data.message
+            })
+            .catch((error)=>{
+                console.log("Error", error)
+            })
+        }
+
+        
+
+    </script>
+
+</body>
+</html>
